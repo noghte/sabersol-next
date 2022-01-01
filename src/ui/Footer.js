@@ -9,18 +9,29 @@ const Footer = (props) => (
       fontSize: 1,
     }}
   >
+
     <Text sx={{ mx: 3, display: "inline-block" }}>
-      Created by <a href="https://johnpolacek">John Polacek</a>
-    </Text>
-    <Text sx={{ mx: 3, display: "inline-block" }}>
-      Open sourced on{" "}
-      <a href="https://github.com/johnpolacek/nextjs-mdx-blog-starter">
-        Github
+      Source available on {" "}
+      <a href="https://github.com/noghte/sabersol-next">
+        noghte/sabersol-next
       </a>
     </Text>
-    <Text sx={{ mx: 3, display: "inline-block" }}>
-      Follow <a href="https://twitter.com/johnpolacek">@johnpolacek</a>
+    <br />
+    <Text>
+      (modified version of  {" "}
+      <a href="https://github.com/johnpolacek/nextjs-mdx-blog-starter">
+        johnpolacek/nextjs-mdx-blog-starter
+      </a>)
     </Text>
+    
+    <div>
+      <a href="https://nextjs.org">
+      <img src="/img/next-logo.png" alt="Next JS" style={{width: '2rem'}} />
+      </a>
+      <a href="https://theme-ui.com/">
+        <img src="/img/theme-ui-logo.png" alt="Theme UI" style={{width: '2rem'}} />
+      </a>
+    </div>
   </Box>
 )
 

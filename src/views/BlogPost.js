@@ -44,7 +44,7 @@ const BlogPost = ({ post }) => {
           {post.coverImage && (
             <Box
               sx={{
-                mb: 3,
+                mb: 1,
                 border: "1px solid",
                 borderColor: "rgba(0,0,0,.1)",
               }}
